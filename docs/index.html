@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack - Vite</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script type="module" crossorigin src="/assets/index-5889e61a.js"></script>
+    <link rel="stylesheet" href="/assets/index-a3a33d8b.css">
+  </head>
+  <body>
+
+    <header class="titol"> Blackjack </header>
+    
+    <!--class="row mt-2" és una classe personalitzada de bootstrap-->
+    <div class="row mt-2">
+        <div id= "divBotons" class="col text-center">
+            <button id="btnJugar" class="btn btn-danger">Jugar</button>
+            <button id="btnDemanar" class="btn btn-primary">Demanar carta</button>
+            <button id="btnPlantarse" class="btn btn-secondary">Plantar-se</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h3 style="color: red;">Valor Cartes del jugador: <small style="color: yellow;">0</small></h2>
+            <div id="jugador-cartes">
+                <!-- <img class="carta" src="assets/cartas/2C.png">
+                <img class="carta" src="assets/cartas/2C.png">
+                <img id="carta3Jugador" class="carta" src="assets/cartas/2C.png">
+                <img class="carta" src="assets/cartas/2C.png"> -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h3 style="color: blue;">Cartes de la màquina: <small style="color: pink;">0</small></h2>
+            <div id="maquina-cartes">
+                <!-- <img class="carta" src="assets/cartas/AC.png">
+                <img class="carta" src="assets/cartas/AC.png">
+                <img class="carta" src="assets/cartas/AC.png">
+                <img class="carta" src="assets/cartas/AC.png"> -->
+            </div>
+        </div>
+    </div>
+
+
+      <div id="app"></div>
+      
+  </body>
+</html>
