@@ -1,0 +1,32 @@
+/*quan es fa ref al document */
+html, body {
+  margin: 0px;
+  background-color: #2f4f30;
+  color: white;
+}
+
+/*quan es fa ref a una classe es comença per '.' */
+.titol {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.carta {
+  position: relative;
+  width: 100px;
+  left: 75px;
+  margin-left: -50px;
+}
+
+
+/*Quan es fa ref a id es comença per '#' */
+
+/*bolem que es mostri lespai sempre amb una alçada 
+concreta, independenment de si hi ha cartes o no*/
+#maquina-cartes, #jugador-cartes {
+  height: 180px;
+}
+
